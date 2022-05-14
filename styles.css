@@ -21,6 +21,10 @@ body {
     filter: drop-shadow(.1rem .1rem 1rem rgba(0, 0, 0, 0.271));
 }
 
+h1 {
+    font-size: 18px;
+}
+
 .banner {
     width: 100%;
     border-radius: 1em 1em 0 0;
