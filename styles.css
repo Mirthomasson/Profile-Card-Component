@@ -1,0 +1,116 @@
+body {
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-color:  hsl(185, 75%, 39%);
+    background-position: bottom 7em left -10em, top 24em right -6em;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    margin-top: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1em;
+    font-size: 18px;
+    filter: drop-shadow(.1rem .1rem 1rem rgba(0, 0, 0, 0.271));
+}
+
+.banner {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+ 
+.container img {
+    margin-top: -50px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 1em;
+}
+
+.age {
+    color: gray;
+    padding-left: 5px;
+}
+
+.london {
+    color: gray;
+    font-size: 14px;
+}
+
+hr {
+    border: 1.5px solid lightgray;
+    width: 100%;
+    opacity: 0.3;
+}
+
+
+.stats {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.followers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.details {
+    color: gray; 
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: -1.2em;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.attribution {
+    position: relative;
+    bottom: -32em;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* For Mobile */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+        background-color:  hsl(185, 75%, 39%);
+        background-position: bottom 10em left -45em, top 24em right -40em;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .attribution {
+        bottom: -30em;
+    }
+}
